@@ -1,0 +1,19 @@
+{
+  "name": "III Torneo Nacional de Debate · NNGG España",
+  "short_name": "NNGG Debate",
+  "description": "App del III Torneo Nacional de Debate de NNGG España",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#031424",
+  "theme_color": "#031424",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./nngg-logo.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
