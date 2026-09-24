@@ -5,8 +5,8 @@ import logo from './nngg-logo.png'
 
 const nav=[['Inicio','inicio'],['Sedes','sedes'],['Equipos','equipos'],['Gran final','final']]
 const blocks=[
- {title:'3 Y 4 DE OCTUBRE',topic:'¿Es el sistema público de pensiones sostenible a largo plazo?',names:['Valencia','Zaragoza','Granada','Murcia','Oviedo','Palma de Mallorca']},
- {title:'8, 10 Y 11 DE OCTUBRE',topic:'¿Deben las Administraciones Públicas priorizar la vivienda pública o la inversión privada?',names:['Madrid','Barcelona','Sevilla','Salamanca','Santiago','Vitoria-Gasteiz','Las Palmas de Gran Canaria']}
+ {title:'3 Y 4 DE OCTUBRE',topic:'¿Es el sistema público de pensiones sostenible a largo plazo?',names:['Valencia','Zaragoza','Granada','Murcia','Oviedo','Palma de Mallorca','Vitoria-Gasteiz']},
+ {title:'8, 10 Y 11 DE OCTUBRE',topic:'¿Deben las Administraciones Públicas priorizar la vivienda pública o la inversión privada?',names:['Madrid','Barcelona','Sevilla','Salamanca','Santiago','Las Palmas de Gran Canaria']}
 ]
 function daysLeft(d){return Math.max(0,Math.ceil((new Date(d+'T23:59:59')-new Date())/86400000))}
 function venueDate(c){if(c.date==='2026-10-08')return'8 de octubre';if(c.date==='2026-10-10')return'10 de octubre';if(c.date==='2026-10-11')return'11 de octubre';if(c.date==='2026-10-04')return'4 de octubre';return'3 de octubre'}
