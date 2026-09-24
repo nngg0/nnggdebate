@@ -19,7 +19,7 @@ export default {
     { id: 9, name: 'Sevilla', date: '2026-10-08', registered: 5, finalistSlots: 1 },
     { id: 10, name: 'Salamanca', date: '2026-10-10', registered: 1, finalistSlots: 1 },
     { id: 11, name: 'Santiago', date: '2026-10-10', registered: 0, finalistSlots: 1 },
-    { id: 12, name: 'Vitoria-Gasteiz', date: '2026-10-10', registered: 1, finalistSlots: 1 },
+    { id: 12, name: 'Vitoria-Gasteiz', date: '2026-10-03', registered: 1, finalistSlots: 1 },
     { id: 13, name: 'Las Palmas de Gran Canaria', date: '2026-10-10', registered: 0, finalistSlots: 1 }
   ],
 
